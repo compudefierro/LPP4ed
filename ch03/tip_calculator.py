@@ -22,6 +22,11 @@ ventana = tk.Tk()
 ventana.title("Entrada de texto")
 ventana.geometry("600x600")
 
+
+# Etiqueta donde se muestra el texto
+etiqueta = tk.Label(ventana, text="Total bill...")
+etiqueta.pack(pady=10)
+
 # Campo de total_bill
 total_bill_e = tk.Entry(ventana)
 total_bill_e.pack(pady=10)
